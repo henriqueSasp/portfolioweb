@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 :root {
+  padding: 20px, 20px;
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme:default) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -16,7 +17,10 @@
   }
 }
 
-body {
+Home {
+  
+  
+  padding: 20px, 20px;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
